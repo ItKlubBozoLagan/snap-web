@@ -3,7 +3,6 @@ import { Image } from "astro:assets";
 
 const images = Astro.glob('/public/images/*.jpeg').then((images) => {
   return images.map((image) => {
-    console.log(image.default);
     return image.default;
   });
 });
