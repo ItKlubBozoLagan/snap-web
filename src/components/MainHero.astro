@@ -1,22 +1,11 @@
 ---
 import { Image } from "astro:assets";
-const images = Astro.glob('/public/main/*.svg').then((images) => {
-  return images.map((image) => {
-    return image.default;
-  });
-});
+import logo from "../../public/main/logo.svg";
 ---
 
 
 <div class="centerImg" id="centerImg">
-  {
-    (await images).map((image, index) => {
-      return (
-        <Image src={image} alt={`Image ${index}`} width={300} height={300} />
-      );
-    }
-    )
-  }
+    <Image src={logo} alt={`Logo`} width={300} height={300}/>
 </div>
 
 <style>
@@ -24,6 +13,7 @@ const images = Astro.glob('/public/main/*.svg').then((images) => {
         text-align: center;
         background-color: #00b8d4;
     }
+
     .centerImg img {
         max-width: 100%;
     }

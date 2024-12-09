@@ -1,56 +1,89 @@
 ---
 import { Image } from "astro:assets";
 ---
-<h1 id="rulebooks">Pravilnici</h1>
+<div class="container">
+    <div id="rulebooks" class="pravilnici">
+        <h2>Pravilnici</h2>
 
-<div class="get_rulebooks">
-    <div id="odluka">
-        <img src="/icons/doc.png" alt="document" width="100" height="100" />
-        <div>Odluka o održavanju natjecanja</div>
+        <div class="get_rulebooks">
+            <a class="link"
+               href="https://docs.google.com/document/d/1nT8KROz_DpknunQSmrILRduJyN6ilIyasJG-bAY-QsU/edit?usp=drive_link"
+               target="_blank">
+                <Image src="/icons/doc.png" alt="document" width="20" height="20"/>
+                <div>Odluka o održavanju natjecanja</div>
+            </a>
+            <a class="link"
+               href="https://docs.google.com/document/d/1tKBnTB1HlAMCwKXFPm1w7yS6f_2hgQzNyf2F1PFs6YI/edit?usp=drive_link"
+               target="_blank">
+                <Image src="/icons/doc.png" alt="document" width="20" height="20"/>
+                <div>Pravilnik o natjecanju</div>
+            </a>
+        </div>
     </div>
-    <div id="pravilnik">
-        <img src="/icons/doc.png" alt="document" width="100" height="100" />
-        <div>Pravilnik o natjecanju</div>
+
+    <div class="contact">
+        <h2>Kontakt</h2>
+
+        <div class="contact-div">
+            <span>Mail: <a href="mailto:hello@xfer.hr">hello@xfer.hr</a></span>
+        </div>
     </div>
 </div>
 
-<script>
-    var odluka = document.getElementById('odluka');
-    var pravilnik = document.getElementById('pravilnik');
-
-    odluka.addEventListener('click', function() {
-        window.open('https://docs.google.com/document/d/1nT8KROz_DpknunQSmrILRduJyN6ilIyasJG-bAY-QsU/edit?usp=drive_link', '_blank');
-    });
-
-    pravilnik.addEventListener('click', function() {
-        window.open('https://docs.google.com/document/d/1tKBnTB1HlAMCwKXFPm1w7yS6f_2hgQzNyf2F1PFs6YI/edit?usp=drive_link', '_blank');
-    });
-</script>
-
 <style>
-    #rulebooks {
-        margin-left: 50px;
+    h2 {
+        margin: 0;
     }
 
-    .get_rulebooks {
+    .container {
         display: flex;
+        justify-content: space-between;
+        background-color: #00b8d4;
+        padding: 2rem 3rem 6rem 3rem;
+        gap: 4rem;
+    }
+
+    .pravilnici {
+        min-width: max-content;
+        display: flex;
+        flex-direction: column;
         justify-content: space-around;
-        margin-top: 50px;
+        gap: 1rem;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
     }
 
     @media screen and (max-width: 768px) {
-        .get_rulebooks {
+        .pravilnici {
+            width: 100%;
+        }
+
+        .container {
             flex-direction: column;
             align-items: center;
-            gap: 50px;
+
+            div {
+                max-width: 400px;
+            }
+        }
+
+        .contact {
+            width: 100%;
         }
     }
 
-    #odluka, #pravilnik {
+    .link {
         display: flex;
-        flex-direction: column;
         align-items: center;
+        gap: 0.5rem;
         cursor: pointer;
+        text-decoration: none;
+        color: black;
     }
 
 </style>
+
