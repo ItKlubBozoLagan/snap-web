@@ -17,10 +17,15 @@ const DataByCategory: Record<EducationCategory | "all", ContestTableEntry[]> = {
 ---
 
 <div class="container">
+    <span class="title">Kolo #1</span>
     <TableView client:load dataByCategory={DataByCategory}/>
 </div>
 
 <style>
+    .title {
+        font-size: 1.6rem;
+    }
+
     .container {
         width: 100%;
         display: flex;
