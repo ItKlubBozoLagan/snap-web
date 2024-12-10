@@ -1,0 +1,72 @@
+---
+import kolo1 from "../../../public/data/kolo1.json";
+import {
+    type ContestTableEntry,
+    type EducationCategory,
+    processContestResults
+} from "../../util/contestResults";
+
+const DataByCategory: Record<EducationCategory | "all", ContestTableEntry[]> = {
+    all: processContestResults(kolo1),
+    elementary: processContestResults(kolo1.filter(it => it.category === "elementary")),
+    high: processContestResults(kolo1.filter(it => it.category === "high")),
+    university: processContestResults(kolo1.filter(it => it.category === "university"))
+};
+---
+
+<div class="container">
+
+    <table>
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Ime i prezime</th>
+            <th>Kategorija</th>
+            <th>Institucija</th>
+            <th>Kontestis</th>
+            <th>Testiranje</th>
+            <th>Komunikacija</th>
+            <th>Teta</th>
+            <th>Donald</th>
+            <th>Kvadrati</th>
+            <th>Lozinka</th>
+            <th>Ukupno</th>
+        </tr>
+        </thead>
+        <tbody>
+        {DataByCategory["all"].map(it => (
+                <tr>
+                    <td>{it.rank}</td>
+                    <td>{it.full_name}</td>
+                    <td>{it.category}</td>
+                    <td>{it.institution}</td>
+                    <td>{it.score["kontestis"] ?? ""}</td>
+                    <td>{it.score["testiranje"] ?? ""}</td>
+                    <td>{it.score["komunikacija"] ?? ""}</td>
+                    <td>{it.score["teta"] ?? ""}</td>
+                    <td>{it.score["donald"] ?? ""}</td>
+                    <td>{it.score["kvadrati"] ?? ""}</td>
+                    <td>{it.score["lozinka"] ?? ""}</td>
+                    <td>{it.total}</td>
+                </tr>
+        ))}
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0;
+    }
+
+    div:not(.container) {
+        display: flex;
+        flex-direction: column;
+    }
+
+</style>
