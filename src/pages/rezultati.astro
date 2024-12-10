@@ -2,26 +2,15 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Results from "../components/results/ResultsLayout.astro";
-import Rulebook from "../components/Rulebook.astro";
 ---
 
 <Layout>
-    <main>
-        <Header/>
-        <Results/>
-        <Rulebook/>
-    </main>
+    <Header/>
+    <Results/>
 </Layout>
 
 <style>
     body {
         margin: unset;
-    }
-
-    main {
-        width: 100%;
-        font-size: 20px;
-        line-height: 1.6;
-        color: black;
     }
 </style>

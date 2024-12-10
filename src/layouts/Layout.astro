@@ -1,3 +1,6 @@
+---
+import Footer from "../components/Footer.astro";
+---
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
@@ -9,7 +12,12 @@
     <title>NAP!</title>
 </head>
 <body>
-<slot/>
+<main>
+    <div id="content">
+        <slot/>
+    </div>
+    <Footer/>
+</main>
 </body>
 </html>
 <style is:global>
@@ -37,6 +45,7 @@
 
     body {
         overflow-x: hidden;
+        min-height: 100vh;
     }
 
     code {
@@ -48,5 +57,19 @@
         Bitstream Vera Sans Mono,
         Courier New,
         monospace;
+    }
+
+    main {
+        width: 100%;
+        min-height: 100vh;
+        font-size: 20px;
+        line-height: 1.6;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content {
+        flex-grow: 1;
     }
 </style>
