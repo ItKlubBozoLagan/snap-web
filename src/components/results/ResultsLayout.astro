@@ -1,24 +1,63 @@
 ---
-import kolo1 from "../../../public/data/kolo1.json";
 import {
-    type ContestTableEntry,
-    type EducationCategory,
-    processContestResults
+    type ContestData, ContestTableEntry, type EducationCategory,
+    processContestResults, type RawContestDataEntry
 } from "../../util/contestResults";
 
-import { TableView } from "./TableView";
+import { ContestsView } from "./ContestsTableView";
 
-const DataByCategory: Record<EducationCategory | "all", ContestTableEntry[]> = {
-    all: processContestResults(kolo1),
-    elementary: processContestResults(kolo1.filter(it => it.category === "elementary")),
-    high: processContestResults(kolo1.filter(it => it.category === "high")),
-    university: processContestResults(kolo1.filter(it => it.category === "university"))
+const all_results = import.meta.glob("../../../public/data/*.json", { eager: true }) as Record<string, ContestData>;
+
+const DataByContests = Object.fromEntries(
+    Object.values(all_results)
+        .map(({ name, problems, data }) =>
+            [ name, {
+                problems,
+                data: {
+                    all: processContestResults(data),
+                    elementary: processContestResults(data.filter(it => it.category === "elementary")),
+                    high: processContestResults(data.filter(it => it.category === "high")),
+                    university: processContestResults(data.filter(it => it.category === "university"))
+                }
+            } ]
+        ));
+
+const collapseContestData = (category: EducationCategory | "all"): RawContestDataEntry[] => {
+    const users: Record<string, RawContestDataEntry> = {};
+
+    for (const [ name, { data } ] of Object.entries(DataByContests)) {
+        const categoryData = data[category];
+
+        for (const entry of categoryData) {
+            if (!users[entry.full_name]) {
+                users[entry.full_name] = {
+                    full_name: entry.full_name,
+                    category: entry.category,
+                    institution: entry.institution,
+                    score: {}
+                };
+            }
+
+            users[entry.full_name].score[name] = entry.total;
+        }
+    }
+
+    return Object.values(users);
+};
+
+DataByContests["Ukupno"] = {
+    problems: Object.values(all_results).map(it => it.name),
+    data: {
+        all: processContestResults(collapseContestData("all")),
+        elementary: processContestResults(collapseContestData("elementary")),
+        high: processContestResults(collapseContestData("high")),
+        university: processContestResults(collapseContestData("university"))
+    }
 };
 ---
 
 <div class="container">
-    <span class="title">Kolo #1</span>
-    <TableView client:load dataByCategory={DataByCategory}/>
+    <ContestsView client:load dataByContests={DataByContests}/>
 </div>
 
 <style>
