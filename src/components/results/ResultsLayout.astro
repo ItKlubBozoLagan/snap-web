@@ -6,20 +6,27 @@ import {
 
 import { ContestsView } from "./ContestsTableView";
 
-const all_results = import.meta.glob("../../../public/data/*.json", { eager: true }) as Record<string, ContestData>;
+const allResults = import.meta.glob("../../../public/data/*.json", { eager: true }) as Record<string, ContestData>;
+
+const peopleBlacklist = [ "Višen Pavlica", "Kristijan Gašpar" ];
 
 const DataByContests = Object.fromEntries(
-    Object.values(all_results)
-        .map(({ name, problems, data }) =>
-            [ name, {
-                problems,
-                data: {
-                    all: processContestResults(data),
-                    elementary: processContestResults(data.filter(it => it.category === "elementary")),
-                    high: processContestResults(data.filter(it => it.category === "high")),
-                    university: processContestResults(data.filter(it => it.category === "university"))
-                }
-            } ]
+    Object.values(allResults)
+        .map(({
+                  name,
+                  problems,
+                  data: rawData
+              }, _, __, data = rawData.filter(it => !peopleBlacklist.includes(it.full_name))
+            ) =>
+                [ name, {
+                    problems,
+                    data: {
+                        all: processContestResults(data),
+                        elementary: processContestResults(data.filter(it => it.category === "elementary")),
+                        high: processContestResults(data.filter(it => it.category === "high")),
+                        university: processContestResults(data.filter(it => it.category === "university"))
+                    }
+                } ]
         ));
 
 const collapseContestData = (category: EducationCategory | "all"): RawContestDataEntry[] => {
@@ -46,7 +53,7 @@ const collapseContestData = (category: EducationCategory | "all"): RawContestDat
 };
 
 DataByContests["Ukupno"] = {
-    problems: Object.values(all_results).map(it => it.name),
+    problems: Object.values(allResults).map(it => it.name),
     data: {
         all: processContestResults(collapseContestData("all")),
         elementary: processContestResults(collapseContestData("elementary")),
