@@ -1,1 +1,491 @@
-{"name":"Kolo 2","problems":["Božić 🎅","Natjecanje ❄️","Poklon 🎁","Prosjek 🌟","Bitstring 🥛","Diktatori ⛄","Listovi 🎄"],"data":[{"full_name":"Ante Kelava","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":0,"Bitstring 🥛":110},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Jan Celin","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Bitstring 🥛":110},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Niko Baotić","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":70,"Listovi 🎄":50,"Bitstring 🥛":110},"institution":"Gimnazija i ekonomska škola Benedikta Kotruljevića, s pravom javnosti","category":"high"},{"full_name":"Leon Žvorc","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50},"institution":"Tehnička škola Čakovec","category":"high"},{"full_name":"Eugen Korak","score":{},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Ana Tomaš","score":{"Božić 🎅":20},"institution":"Umjetnička škola Luke Sorkočevića Dubrovnik","category":"high"},{"full_name":"Lovro Preksavec","score":{"Božić 🎅":20},"institution":"Strukovna škola Đurđevac","category":"high"},{"full_name":"Ivan Žilić","score":{"Božić 🎅":20,"Natjecanje ❄️":0},"institution":"Tehnička škola Ruđera Boškovića Zagreb","category":"high"},{"full_name":"Noa Čizmić","score":{"Božić 🎅":20,"Natjecanje ❄️":0,"Poklon 🎁":50,"Prosjek 🌟":0},"institution":"Tehnička škola Zagreb","category":"high"},{"full_name":"Hrvoje Valent","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":70,"Listovi 🎄":110,"Bitstring 🥛":110},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Matej Aščić","score":{},"institution":"Gimnazija Matija Mesić","category":"high"},{"full_name":"Mate Pastorčić","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":0,"Bitstring 🥛":110},"institution":"Gimnazija i strukovna škola Jurja Dobrile Pazin","category":"high"},{"full_name":"Nikša Opanović","score":{},"institution":"Gimnazija Franje Petrića Zadar","category":"high"},{"full_name":"Krešimir Troha","score":{},"institution":"Sveučilište u Rijeci","category":"university"},{"full_name":"Petar Filo","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":0,"Bitstring 🥛":0},"institution":"Osnovna škola Petar Zrinski Šenkovec Čakovec","category":"elementary"},{"full_name":"Lovro Novak","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":0,"Prosjek 🌟":0,"Bitstring 🥛":110},"institution":"Osnovna škola Podturen","category":"elementary"},{"full_name":"Maksim Stanković Šprajc","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":70,"Listovi 🎄":20,"Bitstring 🥛":110},"institution":"Prva privatna gimnazija Zagreb","category":"high"},{"full_name":"Luka Grgurin","score":{},"institution":"Gimnazija Dubrovnik","category":"high"},{"full_name":"Vito Popović","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":0,"Bitstring 🥛":110},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Dobren Dragojević","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":40,"Bitstring 🥛":40,"Diktatori ⛄":0},"institution":"Ekonomska i trgovačka škola Dubrovnik","category":"high"},{"full_name":"Gabriel Teo Kaurić","score":{"Božić 🎅":20,"Poklon 🎁":50,"Prosjek 🌟":0},"institution":"Prva osnovna škola Ogulin","category":"elementary"},{"full_name":"David Ivšak","score":{"Božić 🎅":20,"Natjecanje ❄️":0},"institution":"Strukovna škola Đurđevac","category":"high"},{"full_name":"Matija Žganec","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Prosjek 🌟":0},"institution":"Tehnička škola Čakovec","category":"high"},{"full_name":"Dino Hadžić","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":30,"Listovi 🎄":110,"Bitstring 🥛":110,"Diktatori ⛄":20},"institution":"XV. gimnazija Zagreb","category":"high"},{"full_name":"Neva Ladavac","score":{"Božić 🎅":20},"institution":"V. gimnazija Zagreb","category":"high"},{"full_name":"Matej Miličević","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":0},"institution":"Gimnazija Požega","category":"high"},{"full_name":"Ana Jelić","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":0},"institution":"Gimnazija Matije Antuna Reljkovića Vinkovci","category":"high"},{"full_name":"Filip Švajger","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":0,"Bitstring 🥛":110},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Patrik Dikan","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Bitstring 🥛":110},"institution":"Gimnazija \"Fran Galović\"","category":"high"},{"full_name":"Joško Jelavić","score":{"Božić 🎅":20,"Natjecanje ❄️":30},"institution":"Gimnazija Dubrovnik","category":"high"},{"full_name":"Vito Toševski","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":0,"Listovi 🎄":0,"Bitstring 🥛":110},"institution":"III. gimnazija Split","category":"high"},{"full_name":"Borna Gudac","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":30,"Listovi 🎄":50,"Bitstring 🥛":110},"institution":"Osnovna škola Kraljevica","category":"elementary"},{"full_name":"Luka Milošević","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":30,"Listovi 🎄":110,"Bitstring 🥛":110},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Zvonimir Stjepan Jalšovec","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":0},"institution":"V. gimnazija Zagreb","category":"high"},{"full_name":"Luka Tuksar","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Bitstring 🥛":110},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Jakov Celin","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":70,"Listovi 🎄":110,"Bitstring 🥛":110,"Diktatori ⛄":20},"institution":"Prirodoslovno-matematički fakultet","category":"university"},{"full_name":"Višen Pavlica","score":{"Božić 🎅":20},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Robert Takač","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":0},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Ivo Pavičić","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":30,"Listovi 🎄":110,"Bitstring 🥛":110},"institution":"XV. gimnazija Zagreb","category":"high"},{"full_name":"Jakov Jandrić","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":30,"Listovi 🎄":110,"Bitstring 🥛":110,"Diktatori ⛄":0},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Viktor Hotko Dojčić","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Poklon 🎁":50,"Prosjek 🌟":0},"institution":"Osnovna škola Pavao Belas","category":"elementary"},{"full_name":"Lukas Balbino","score":{},"institution":"XV. gimnazija Zagreb","category":"high"},{"full_name":"Jakov Ivanjko","score":{"Božić 🎅":20,"Natjecanje ❄️":30},"institution":"V. gimnazija Zagreb","category":"high"},{"full_name":"Xingyu Tu","score":{"Božić 🎅":0},"institution":"Osnovna škola Granešina Zagreb","category":"elementary"},{"full_name":"Petar Halužan","score":{"Božić 🎅":20,"Natjecanje ❄️":30,"Prosjek 🌟":30,"Bitstring 🥛":0},"institution":"Srednja strukovna škola Samobor","category":"high"},{"full_name":"Katarina Mikulić","score":{},"institution":"Fakultet elektrotehnike i računarstva","category":"university"}]}
+{
+  "name": "Kolo 2",
+  "problems": [
+    "Božić 🎅",
+    "Natjecanje ❄️",
+    "Poklon 🎁",
+    "Prosjek 🌟",
+    "Bitstring 🥛",
+    "Diktatori ⛄",
+    "Listovi 🎄"
+  ],
+  "data": [
+    {
+      "full_name": "Ante Kelava",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 0,
+        "Bitstring 🥛": 110
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Jan Celin",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Bitstring 🥛": 110
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Niko Baotić",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 70,
+        "Listovi 🎄": 50,
+        "Bitstring 🥛": 110
+      },
+      "institution": "Gimnazija i ekonomska škola Benedikta Kotruljevića, s pravom javnosti",
+      "category": "high"
+    },
+    {
+      "full_name": "Leon Žvorc",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50
+      },
+      "institution": "Tehnička škola Čakovec",
+      "category": "high"
+    },
+    {
+      "full_name": "Eugen Korak",
+      "score": {},
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Ana Tomaš",
+      "score": {
+        "Božić 🎅": 20
+      },
+      "institution": "Umjetnička škola Luke Sorkočevića Dubrovnik",
+      "category": "high"
+    },
+    {
+      "full_name": "Lovro Preksavec",
+      "score": {
+        "Božić 🎅": 20
+      },
+      "institution": "Strukovna škola Đurđevac",
+      "category": "high"
+    },
+    {
+      "full_name": "Ivan Žilić",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 0
+      },
+      "institution": "Tehnička škola Ruđera Boškovića Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Noa Čizmić",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 0,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 0
+      },
+      "institution": "Tehnička škola Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Hrvoje Valent",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 70,
+        "Listovi 🎄": 110,
+        "Bitstring 🥛": 110
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Matej Aščić",
+      "score": {},
+      "institution": "Gimnazija Matija Mesić",
+      "category": "high"
+    },
+    {
+      "full_name": "Mate Pastorčić",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 0,
+        "Bitstring 🥛": 110
+      },
+      "institution": "Gimnazija i strukovna škola Jurja Dobrile Pazin",
+      "category": "high"
+    },
+    {
+      "full_name": "Nikša Opanović",
+      "score": {},
+      "institution": "Gimnazija Franje Petrića Zadar",
+      "category": "high"
+    },
+    {
+      "full_name": "Krešimir Troha",
+      "score": {},
+      "institution": "Sveučilište u Rijeci",
+      "category": "university"
+    },
+    {
+      "full_name": "Petar Filo",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 0,
+        "Bitstring 🥛": 0
+      },
+      "institution": "Osnovna škola Petar Zrinski Šenkovec Čakovec",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Lovro Novak",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 0,
+        "Prosjek 🌟": 0,
+        "Bitstring 🥛": 110
+      },
+      "institution": "Osnovna škola Podturen",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Maksim Stanković Šprajc",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 70,
+        "Listovi 🎄": 20,
+        "Bitstring 🥛": 110
+      },
+      "institution": "Prva privatna gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Grgurin",
+      "score": {},
+      "institution": "Gimnazija Dubrovnik",
+      "category": "high"
+    },
+    {
+      "full_name": "Vito Popović",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 0,
+        "Bitstring 🥛": 110
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Dobren Dragojević",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 40,
+        "Bitstring 🥛": 40,
+        "Diktatori ⛄": 0
+      },
+      "institution": "Ekonomska i trgovačka škola Dubrovnik",
+      "category": "high"
+    },
+    {
+      "full_name": "Gabriel Teo Kaurić",
+      "score": {
+        "Božić 🎅": 20,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 0
+      },
+      "institution": "Prva osnovna škola Ogulin",
+      "category": "elementary"
+    },
+    {
+      "full_name": "David Ivšak",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 0
+      },
+      "institution": "Strukovna škola Đurđevac",
+      "category": "high"
+    },
+    {
+      "full_name": "Matija Žganec",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Prosjek 🌟": 0
+      },
+      "institution": "Tehnička škola Čakovec",
+      "category": "high"
+    },
+    {
+      "full_name": "Dino Hadžić",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 30,
+        "Listovi 🎄": 110,
+        "Bitstring 🥛": 110,
+        "Diktatori ⛄": 20
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Neva Ladavac",
+      "score": {
+        "Božić 🎅": 20
+      },
+      "institution": "V. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Matej Miličević",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 0
+      },
+      "institution": "Gimnazija Požega",
+      "category": "high"
+    },
+    {
+      "full_name": "Ana Jelić",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 0
+      },
+      "institution": "Gimnazija Matije Antuna Reljkovića Vinkovci",
+      "category": "high"
+    },
+    {
+      "full_name": "Filip Švajger",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 0,
+        "Bitstring 🥛": 110
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Patrik Dikan",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Bitstring 🥛": 110
+      },
+      "institution": "Gimnazija \"Fran Galović\"",
+      "category": "high"
+    },
+    {
+      "full_name": "Joško Jelavić",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30
+      },
+      "institution": "Gimnazija Dubrovnik",
+      "category": "high"
+    },
+    {
+      "full_name": "Vito Toševski",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 0,
+        "Listovi 🎄": 0,
+        "Bitstring 🥛": 110
+      },
+      "institution": "III. gimnazija Split",
+      "category": "high"
+    },
+    {
+      "full_name": "Borna Gudac",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 30,
+        "Listovi 🎄": 50,
+        "Bitstring 🥛": 110
+      },
+      "institution": "Osnovna škola Kraljevica",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Luka Milošević",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 30,
+        "Listovi 🎄": 110,
+        "Bitstring 🥛": 110
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Zvonimir Stjepan Jalšovec",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 0
+      },
+      "institution": "V. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Tuksar",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Bitstring 🥛": 110
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Jakov Celin",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 70,
+        "Listovi 🎄": 110,
+        "Bitstring 🥛": 110,
+        "Diktatori ⛄": 20
+      },
+      "institution": "Prirodoslovno-matematički fakultet",
+      "category": "university"
+    },
+    {
+      "full_name": "Višen Pavlica",
+      "score": {
+        "Božić 🎅": 20
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Robert Takač",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Ivo Pavičić",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 30,
+        "Listovi 🎄": 110,
+        "Bitstring 🥛": 110
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Jakov Jandrić",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 30,
+        "Listovi 🎄": 110,
+        "Bitstring 🥛": 110,
+        "Diktatori ⛄": 0
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Viktor Hotko Dojčić",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Poklon 🎁": 50,
+        "Prosjek 🌟": 0
+      },
+      "institution": "Osnovna škola Pavao Belas",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Lukas Balbino",
+      "score": {},
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Jakov Ivanjko",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30
+      },
+      "institution": "V. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Xingyu Tu",
+      "score": {
+        "Božić 🎅": 0
+      },
+      "institution": "Osnovna škola Granešina Zagreb",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Petar Halužan",
+      "score": {
+        "Božić 🎅": 20,
+        "Natjecanje ❄️": 30,
+        "Prosjek 🌟": 30,
+        "Bitstring 🥛": 0
+      },
+      "institution": "Srednja strukovna škola Samobor",
+      "category": "high"
+    },
+    {
+      "full_name": "Katarina Mikulić",
+      "score": {},
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    }
+  ]
+}
+

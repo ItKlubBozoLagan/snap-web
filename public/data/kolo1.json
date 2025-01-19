@@ -1,1 +1,843 @@
-{"name":"Kolo 1","problems":["Kontestis","Testiranje","Komunikacija","Teta","Donald","Kvadrati","Lozinka"],"data":[{"full_name":"Luka Milošević","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":70,"Kvadrati":0,"Donald":20,"Lozinka":50},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Petra Kelković","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0,"Teta":0},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Luka Tuksar","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":70,"Donald":20},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Matea Cvetković","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Donald":20},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Hrvoje Valent","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":70,"Donald":20},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Nikola Vlašić","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":15,"Donald":20},"institution":"Gimnazija Andrije Mohorovičića Rijeka","category":"high"},{"full_name":"Patrik Landeka","score":{"Kontestis":20,"Testiranje":30,"Donald":20,"Lozinka":0},"institution":"Tehnička škola Ruđera Boškovića Zagreb","category":"high"},{"full_name":"Luka Budimir","score":{"Kontestis":20,"Testiranje":30,"Lozinka":0},"institution":"Gimnazija Požega","category":"high"},{"full_name":"Katarina Mikulić","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Donald":0},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Ante Kelava","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":15,"Donald":20},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Ivan Joskić","score":{"Kontestis":20,"Testiranje":30},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Sebastijan Hontić","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0},"institution":"Strukovna škola Đurđevac","category":"high"},{"full_name":"Fran Sučija","score":{"Kontestis":20,"Testiranje":30},"institution":"XV. gimnazija Zagreb","category":"high"},{"full_name":"Damjan Perković","score":{"Kontestis":20,"Testiranje":0,"Teta":0,"Donald":20},"institution":"Osnovna škola \"Srdoči\" Rijeka","category":"elementary"},{"full_name":"Fran Janči","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":0},"institution":"Gimnazija Josipa Slavenskog Čakovec","category":"high"},{"full_name":"Ivan Novosel","score":{"Kontestis":20,"Testiranje":30},"institution":"Osnovna škola Franje Horvata Kiša Lobor","category":"elementary"},{"full_name":"Patrick Pavić","score":{},"institution":"Prirodoslovno-matematički fakultet","category":"university"},{"full_name":"Ivan Dražetić","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Dario Vuksan","score":{"Kontestis":20,"Testiranje":30},"institution":"XV. gimnazija Zagreb","category":"high"},{"full_name":"Maksim Stanković Šprajc","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":70,"Donald":0,"Lozinka":50},"institution":"Prva privatna gimnazija Zagreb","category":"high"},{"full_name":"Saša Ovčarić","score":{},"institution":"Gimnazija Josipa Slavenskog Čakovec","category":"high"},{"full_name":"Petar Filo","score":{"Kontestis":20,"Testiranje":30,"Lozinka":0},"institution":"Osnovna škola Petar Zrinski Šenkovec Čakovec","category":"elementary"},{"full_name":"Jakov Ivanjko","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0,"Donald":0},"institution":"V. gimnazija Zagreb","category":"high"},{"full_name":"Juraj Feljan","score":{"Kontestis":20,"Testiranje":30},"institution":"Gimnazija Velika Gorica","category":"high"},{"full_name":"Filip Švajger","score":{"Kontestis":20,"Testiranje":30,"Teta":70,"Donald":0},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Eon Mihaljević","score":{"Kontestis":20,"Testiranje":30,"Donald":20},"institution":"Tehnička škola Ruđera Boškovića Zagreb","category":"high"},{"full_name":"Jana Glavač","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Matej Furdić","score":{"Kontestis":20,"Testiranje":30},"institution":"Strukovna škola Đurđevac","category":"high"},{"full_name":"Karlo Ovčar","score":{},"institution":"Tehnička škola Čakovec","category":"high"},{"full_name":"Jakov Čiček","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0,"Teta":15,"Kvadrati":0,"Donald":20,"Lozinka":0},"institution":"Osnovna škola Pavleka Miškine Zagreb","category":"elementary"},{"full_name":"Andro Štefulj","score":{"Kontestis":20,"Testiranje":30},"institution":"I. osnovna škola Čakovec","category":"elementary"},{"full_name":"Emanuel Karačić","score":{"Kontestis":20,"Testiranje":0,"Donald":20,"Lozinka":0},"institution":"Osnovna škola Vladimir Deščak","category":"elementary"},{"full_name":"Borna Gudac","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":15,"Donald":20},"institution":"Osnovna škola Kraljevica","category":"elementary"},{"full_name":"Vito Popović","score":{"Kontestis":20,"Testiranje":30},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Zvonimir Stjepan Jalšovec","score":{"Kontestis":20,"Testiranje":30,"Donald":20,"Lozinka":0},"institution":"V. gimnazija Zagreb","category":"high"},{"full_name":"Branimir Varžak","score":{},"institution":"Katolička osnovna škola u Požegi","category":"elementary"},{"full_name":"Mikaela Perković","score":{},"institution":"Osnovna škola \"Srdoči\" Rijeka","category":"elementary"},{"full_name":"Dunja Čleković","score":{"Kontestis":20,"Testiranje":0},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Jakov Jandrić","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":70,"Donald":20},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Luka Višaticki","score":{},"institution":"Katolička osnovna škola u Požegi","category":"elementary"},{"full_name":"Juraj Blašković","score":{"Kontestis":20,"Testiranje":30},"institution":"Gimnazija Požega","category":"high"},{"full_name":"Josip Šebelja","score":{},"institution":"Gimnazija Andrije Mohorovičića Rijeka","category":"high"},{"full_name":"Vito Matiša","score":{"Kontestis":20,"Testiranje":30},"institution":"Gimnazija \"Fran Galović\"","category":"high"},{"full_name":"Jakov Celin","score":{},"institution":"Prirodoslovno-matematički fakultet","category":"university"},{"full_name":"Marko Dodig","score":{},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Nikola Savić","score":{},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"David Ivšak","score":{"Kontestis":20,"Testiranje":30,"Teta":0,"Lozinka":0},"institution":"Strukovna škola Đurđevac","category":"high"},{"full_name":"Dalibor Starčević","score":{},"institution":"Katolička osnovna škola u Požegi","category":"elementary"},{"full_name":"Lana Radošić","score":{"Kontestis":20,"Testiranje":30,"Donald":0},"institution":"Tehničko veleučilište u Zagrebu","category":"university"},{"full_name":"Sebastijan Murk","score":{"Kontestis":20,"Testiranje":0},"institution":"I. osnovna škola Čakovec","category":"elementary"},{"full_name":"Ana Jelić","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Donald":0},"institution":"Gimnazija Matije Antuna Reljkovića Vinkovci","category":"high"},{"full_name":"Toni Bartolić","score":{},"institution":"Tehnička škola Ruđera Boškovića Zagreb","category":"high"},{"full_name":"Dino Hadžić","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":70,"Kvadrati":110,"Donald":20,"Lozinka":110},"institution":"XV. gimnazija Zagreb","category":"high"},{"full_name":"Lovre Mešin","score":{"Kontestis":20,"Testiranje":30},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Fran Galović","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0},"institution":"Gimnazija Požega","category":"high"},{"full_name":"Vito Toševski","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":70,"Donald":20,"Lozinka":0},"institution":"III. gimnazija Split","category":"high"},{"full_name":"Patrik Dikan","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0},"institution":"Gimnazija \"Fran Galović\"","category":"high"},{"full_name":"Zeta Hećimović Obradović","score":{},"institution":"XV. gimnazija Zagreb","category":"high"},{"full_name":"Dario Adamović","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0,"Teta":15,"Donald":20},"institution":"Sveučilište Josipa Jurja Strossmayera u Osijeku","category":"university"},{"full_name":"Lovro Sambolec","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":15,"Donald":0},"institution":"Druga gimnazija Varaždin","category":"high"},{"full_name":"Kristijan Gašpar","score":{},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Erin Ogrizović","score":{"Kontestis":0,"Testiranje":0},"institution":"Osnovna škola Antuna Kanižlića Požega","category":"elementary"},{"full_name":"Dario Domiter","score":{},"institution":"Srednja škola Isidora Kršnjavoga Našice","category":"high"},{"full_name":"Teo Hanžeković","score":{"Kontestis":20,"Testiranje":30},"institution":"Gimnazija \"Fran Galović\"","category":"high"},{"full_name":"Dobren Dragojević","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0,"Teta":0,"Kvadrati":0,"Donald":20,"Lozinka":0},"institution":"Ekonomska i trgovačka škola Dubrovnik","category":"high"},{"full_name":"Neva Ladavac","score":{},"institution":"V. gimnazija Zagreb","category":"high"},{"full_name":"Matija Žganec","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0,"Teta":15,"Donald":0},"institution":"Tehnička škola Čakovec","category":"high"},{"full_name":"Gabriel Teo Kaurić","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0,"Teta":5,"Donald":20,"Lozinka":0},"institution":"Prva osnovna škola Ogulin","category":"elementary"},{"full_name":"Petar Halužan","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0,"Teta":15,"Donald":20},"institution":"Srednja strukovna škola Samobor","category":"high"},{"full_name":"Fabijan Pitlović","score":{},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Lucija Bolšec","score":{"Kontestis":0,"Testiranje":30},"institution":"Osnovna škola Franje Horvata Kiša Lobor","category":"elementary"},{"full_name":"Mario Mihaljević","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0},"institution":"XV. gimnazija Zagreb","category":"high"},{"full_name":"Ivan Mikulaj","score":{"Kontestis":20,"Testiranje":0},"institution":"II. osnovna škola Čakovec","category":"elementary"},{"full_name":"Marko Nujić","score":{},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Leo Briški","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":0,"Donald":20},"institution":"Gimnazija Požega","category":"high"},{"full_name":"Dominik Belavić","score":{"Kontestis":20,"Testiranje":30},"institution":"Srednja škola \"Ivan Švear\" Ivanić Grad","category":"high"},{"full_name":"Lovro Novak","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0,"Teta":5,"Donald":20,"Lozinka":0},"institution":"Osnovna škola Podturen","category":"elementary"},{"full_name":"Ilan Buza","score":{"Kontestis":20,"Testiranje":30,"Teta":0},"institution":"III. osnovna škola Čakovec","category":"elementary"},{"full_name":"Niko Baotić","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":70,"Donald":0},"institution":"Gimnazija i ekonomska škola Benedikta Kotruljevića, s pravom javnosti","category":"high"},{"full_name":"Robert Takač","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":0,"Teta":0},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Antonio Bogović","score":{"Kontestis":20,"Testiranje":30},"institution":"Gimnazija Velika Gorica","category":"high"},{"full_name":"Toni Sekula","score":{"Kontestis":20,"Testiranje":0,"Lozinka":0},"institution":"Osnovna škola Stjepana Radića Bibinje","category":"elementary"},{"full_name":"Igor Kozlinger","score":{"Kontestis":20,"Testiranje":30},"institution":"XV. gimnazija Zagreb","category":"high"},{"full_name":"Luka Ivanić","score":{"Kontestis":20,"Testiranje":30,"Komunikacija":50,"Teta":0},"institution":"Sveučilište u Rijeci","category":"university"},{"full_name":"Valerija Debeljak","score":{},"institution":"Osnovna škola Franje Horvata Kiša Lobor","category":"elementary"},{"full_name":"Stjepan Mandić","score":{"Kontestis":20},"institution":"Katolička osnovna škola u Požegi","category":"elementary"}]}
+{
+  "name": "Kolo 1",
+  "problems": [
+    "Kontestis",
+    "Testiranje",
+    "Komunikacija",
+    "Teta",
+    "Donald",
+    "Kvadrati",
+    "Lozinka"
+  ],
+  "data": [
+    {
+      "full_name": "Luka Milošević",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 70,
+        "Kvadrati": 0,
+        "Donald": 20,
+        "Lozinka": 50
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Petra Kelković",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0,
+        "Teta": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Luka Tuksar",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 70,
+        "Donald": 20
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Matea Cvetković",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Donald": 20
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Hrvoje Valent",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 70,
+        "Donald": 20
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Nikola Vlašić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 15,
+        "Donald": 20
+      },
+      "institution": "Gimnazija Andrije Mohorovičića Rijeka",
+      "category": "high"
+    },
+    {
+      "full_name": "Patrik Landeka",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Donald": 20,
+        "Lozinka": 0
+      },
+      "institution": "Tehnička škola Ruđera Boškovića Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Budimir",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Lozinka": 0
+      },
+      "institution": "Gimnazija Požega",
+      "category": "high"
+    },
+    {
+      "full_name": "Katarina Mikulić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Donald": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Ante Kelava",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 15,
+        "Donald": 20
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Ivan Joskić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Sebastijan Hontić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0
+      },
+      "institution": "Strukovna škola Đurđevac",
+      "category": "high"
+    },
+    {
+      "full_name": "Fran Sučija",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Damjan Perković",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 0,
+        "Teta": 0,
+        "Donald": 20
+      },
+      "institution": "Osnovna škola \"Srdoči\" Rijeka",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Fran Janči",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 0
+      },
+      "institution": "Gimnazija Josipa Slavenskog Čakovec",
+      "category": "high"
+    },
+    {
+      "full_name": "Ivan Novosel",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "Osnovna škola Franje Horvata Kiša Lobor",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Patrick Pavić",
+      "score": {},
+      "institution": "Prirodoslovno-matematički fakultet",
+      "category": "university"
+    },
+    {
+      "full_name": "Ivan Dražetić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Dario Vuksan",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Maksim Stanković Šprajc",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 70,
+        "Donald": 0,
+        "Lozinka": 50
+      },
+      "institution": "Prva privatna gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Saša Ovčarić",
+      "score": {},
+      "institution": "Gimnazija Josipa Slavenskog Čakovec",
+      "category": "high"
+    },
+    {
+      "full_name": "Petar Filo",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Lozinka": 0
+      },
+      "institution": "Osnovna škola Petar Zrinski Šenkovec Čakovec",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Jakov Ivanjko",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0,
+        "Donald": 0
+      },
+      "institution": "V. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Juraj Feljan",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "Gimnazija Velika Gorica",
+      "category": "high"
+    },
+    {
+      "full_name": "Filip Švajger",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Teta": 70,
+        "Donald": 0
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Eon Mihaljević",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Donald": 20
+      },
+      "institution": "Tehnička škola Ruđera Boškovića Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Jana Glavač",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Matej Furdić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "Strukovna škola Đurđevac",
+      "category": "high"
+    },
+    {
+      "full_name": "Karlo Ovčar",
+      "score": {},
+      "institution": "Tehnička škola Čakovec",
+      "category": "high"
+    },
+    {
+      "full_name": "Jakov Čiček",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0,
+        "Teta": 15,
+        "Kvadrati": 0,
+        "Donald": 20,
+        "Lozinka": 0
+      },
+      "institution": "Osnovna škola Pavleka Miškine Zagreb",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Andro Štefulj",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "I. osnovna škola Čakovec",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Emanuel Karačić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 0,
+        "Donald": 20,
+        "Lozinka": 0
+      },
+      "institution": "Osnovna škola Vladimir Deščak",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Borna Gudac",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 15,
+        "Donald": 20
+      },
+      "institution": "Osnovna škola Kraljevica",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Vito Popović",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Zvonimir Stjepan Jalšovec",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Donald": 20,
+        "Lozinka": 0
+      },
+      "institution": "V. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Branimir Varžak",
+      "score": {},
+      "institution": "Katolička osnovna škola u Požegi",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Mikaela Perković",
+      "score": {},
+      "institution": "Osnovna škola \"Srdoči\" Rijeka",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Dunja Čleković",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 0
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Jakov Jandrić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 70,
+        "Donald": 20
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Višaticki",
+      "score": {},
+      "institution": "Katolička osnovna škola u Požegi",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Juraj Blašković",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "Gimnazija Požega",
+      "category": "high"
+    },
+    {
+      "full_name": "Josip Šebelja",
+      "score": {},
+      "institution": "Gimnazija Andrije Mohorovičića Rijeka",
+      "category": "high"
+    },
+    {
+      "full_name": "Vito Matiša",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "Gimnazija \"Fran Galović\"",
+      "category": "high"
+    },
+    {
+      "full_name": "Jakov Celin",
+      "score": {},
+      "institution": "Prirodoslovno-matematički fakultet",
+      "category": "university"
+    },
+    {
+      "full_name": "Marko Dodig",
+      "score": {},
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Nikola Savić",
+      "score": {},
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "David Ivšak",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Teta": 0,
+        "Lozinka": 0
+      },
+      "institution": "Strukovna škola Đurđevac",
+      "category": "high"
+    },
+    {
+      "full_name": "Dalibor Starčević",
+      "score": {},
+      "institution": "Katolička osnovna škola u Požegi",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Lana Radošić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Donald": 0
+      },
+      "institution": "Tehničko veleučilište u Zagrebu",
+      "category": "university"
+    },
+    {
+      "full_name": "Sebastijan Murk",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 0
+      },
+      "institution": "I. osnovna škola Čakovec",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Ana Jelić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Donald": 0
+      },
+      "institution": "Gimnazija Matije Antuna Reljkovića Vinkovci",
+      "category": "high"
+    },
+    {
+      "full_name": "Toni Bartolić",
+      "score": {},
+      "institution": "Tehnička škola Ruđera Boškovića Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Dino Hadžić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 70,
+        "Kvadrati": 110,
+        "Donald": 20,
+        "Lozinka": 110
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Lovre Mešin",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Fran Galović",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0
+      },
+      "institution": "Gimnazija Požega",
+      "category": "high"
+    },
+    {
+      "full_name": "Vito Toševski",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 70,
+        "Donald": 20,
+        "Lozinka": 0
+      },
+      "institution": "III. gimnazija Split",
+      "category": "high"
+    },
+    {
+      "full_name": "Patrik Dikan",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0
+      },
+      "institution": "Gimnazija \"Fran Galović\"",
+      "category": "high"
+    },
+    {
+      "full_name": "Zeta Hećimović Obradović",
+      "score": {},
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Dario Adamović",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0,
+        "Teta": 15,
+        "Donald": 20
+      },
+      "institution": "Sveučilište Josipa Jurja Strossmayera u Osijeku",
+      "category": "university"
+    },
+    {
+      "full_name": "Lovro Sambolec",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 15,
+        "Donald": 0
+      },
+      "institution": "Druga gimnazija Varaždin",
+      "category": "high"
+    },
+    {
+      "full_name": "Kristijan Gašpar",
+      "score": {},
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Erin Ogrizović",
+      "score": {
+        "Kontestis": 0,
+        "Testiranje": 0
+      },
+      "institution": "Osnovna škola Antuna Kanižlića Požega",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Dario Domiter",
+      "score": {},
+      "institution": "Srednja škola Isidora Kršnjavoga Našice",
+      "category": "high"
+    },
+    {
+      "full_name": "Teo Hanžeković",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "Gimnazija \"Fran Galović\"",
+      "category": "high"
+    },
+    {
+      "full_name": "Dobren Dragojević",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0,
+        "Teta": 0,
+        "Kvadrati": 0,
+        "Donald": 20,
+        "Lozinka": 0
+      },
+      "institution": "Ekonomska i trgovačka škola Dubrovnik",
+      "category": "high"
+    },
+    {
+      "full_name": "Neva Ladavac",
+      "score": {},
+      "institution": "V. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Matija Žganec",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0,
+        "Teta": 15,
+        "Donald": 0
+      },
+      "institution": "Tehnička škola Čakovec",
+      "category": "high"
+    },
+    {
+      "full_name": "Gabriel Teo Kaurić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0,
+        "Teta": 5,
+        "Donald": 20,
+        "Lozinka": 0
+      },
+      "institution": "Prva osnovna škola Ogulin",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Petar Halužan",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0,
+        "Teta": 15,
+        "Donald": 20
+      },
+      "institution": "Srednja strukovna škola Samobor",
+      "category": "high"
+    },
+    {
+      "full_name": "Fabijan Pitlović",
+      "score": {},
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Lucija Bolšec",
+      "score": {
+        "Kontestis": 0,
+        "Testiranje": 30
+      },
+      "institution": "Osnovna škola Franje Horvata Kiša Lobor",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Mario Mihaljević",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Ivan Mikulaj",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 0
+      },
+      "institution": "II. osnovna škola Čakovec",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Marko Nujić",
+      "score": {},
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Leo Briški",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 0,
+        "Donald": 20
+      },
+      "institution": "Gimnazija Požega",
+      "category": "high"
+    },
+    {
+      "full_name": "Dominik Belavić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "Srednja škola \"Ivan Švear\" Ivanić Grad",
+      "category": "high"
+    },
+    {
+      "full_name": "Lovro Novak",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0,
+        "Teta": 5,
+        "Donald": 20,
+        "Lozinka": 0
+      },
+      "institution": "Osnovna škola Podturen",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Ilan Buza",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Teta": 0
+      },
+      "institution": "III. osnovna škola Čakovec",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Niko Baotić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 70,
+        "Donald": 0
+      },
+      "institution": "Gimnazija i ekonomska škola Benedikta Kotruljevića, s pravom javnosti",
+      "category": "high"
+    },
+    {
+      "full_name": "Robert Takač",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 0,
+        "Teta": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Antonio Bogović",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "Gimnazija Velika Gorica",
+      "category": "high"
+    },
+    {
+      "full_name": "Toni Sekula",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 0,
+        "Lozinka": 0
+      },
+      "institution": "Osnovna škola Stjepana Radića Bibinje",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Igor Kozlinger",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Ivanić",
+      "score": {
+        "Kontestis": 20,
+        "Testiranje": 30,
+        "Komunikacija": 50,
+        "Teta": 0
+      },
+      "institution": "Sveučilište u Rijeci",
+      "category": "university"
+    },
+    {
+      "full_name": "Valerija Debeljak",
+      "score": {},
+      "institution": "Osnovna škola Franje Horvata Kiša Lobor",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Stjepan Mandić",
+      "score": {
+        "Kontestis": 20
+      },
+      "institution": "Katolička osnovna škola u Požegi",
+      "category": "elementary"
+    }
+  ]
+}
+

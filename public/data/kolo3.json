@@ -1,1 +1,520 @@
-{"name":"Kolo 3","problems":["Operacija","Protest","Kripto","Zemljište","Čudovište","Kompleksi","Matejota"],"data":[{"full_name":"Nina Ergović","score":{"Operacija":20,"Protest":30},"institution":"Gimnazija Požega","category":"high"},{"full_name":"Jana Glavač","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":70},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Ilan Buza","score":{"Operacija":20,"Protest":30,"Kripto":0},"institution":"III. osnovna škola Čakovec","category":"elementary"},{"full_name":"Luka Budimir","score":{},"institution":"Gimnazija Požega","category":"high"},{"full_name":"Maksim Stanković Šprajc","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":70,"Čudovište":110,"Kompleksi":20},"institution":"Prva privatna gimnazija Zagreb","category":"high"},{"full_name":"Eva Tkalić","score":{},"institution":"X. gimnazija Ivan Supek","category":"high"},{"full_name":"Luka Milošević","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":30,"Čudovište":110,"Kompleksi":30,"Matejota":15},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Vito Popović","score":{"Operacija":20,"Protest":30,"Kripto":50},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Vito Toševski","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":30,"Čudovište":110,"Kompleksi":30},"institution":"III. gimnazija Split","category":"high"},{"full_name":"Leo Briški","score":{"Operacija":20,"Protest":30},"institution":"Gimnazija Požega","category":"high"},{"full_name":"Dobren Dragojević","score":{},"institution":"Ekonomska i trgovačka škola Dubrovnik","category":"high"},{"full_name":"Ante Kelava","score":{"Operacija":20,"Protest":30},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Ivan Bahčić","score":{"Operacija":20},"institution":"Srednja škola Dugo Selo","category":"high"},{"full_name":"Patrik Dikan","score":{"Operacija":20,"Protest":30,"Kripto":50},"institution":"Gimnazija \"Fran Galović\"","category":"high"},{"full_name":"Martin Galin","score":{"Operacija":20,"Protest":30,"Kripto":50},"institution":"Osnovna škola Ksavera Šandora Gjalskog","category":"elementary"},{"full_name":"Stjepan Tomić","score":{},"institution":"Srednja škola Dugo Selo","category":"high"},{"full_name":"Darko Budimčić","score":{},"institution":"Osnovna škola Ivan Benković Dugo Selo","category":"elementary"},{"full_name":"Filip Maksić","score":{"Operacija":20,"Protest":0},"institution":"Srednja škola Dugo Selo","category":"high"},{"full_name":"Luka Tuksar","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":70,"Čudovište":110,"Kompleksi":30},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Antonio Jaković","score":{"Operacija":20},"institution":"Srednja škola Dugo Selo","category":"high"},{"full_name":"Noa Čizmić","score":{},"institution":"Tehnička škola Zagreb","category":"high"},{"full_name":"Nikola Perčić Debeljuh","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":70,"Čudovište":70,"Kompleksi":10},"institution":"Osnovna škola Veli Vrh Pula","category":"elementary"},{"full_name":"Jakov Celin","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":70,"Čudovište":110,"Kompleksi":110,"Matejota":35},"institution":"Prirodoslovno-matematički fakultet","category":"university"},{"full_name":"Filip Čižmek","score":{"Operacija":20,"Protest":30,"Kripto":50,"Kompleksi":0},"institution":"Srednja škola Dugo Selo","category":"high"},{"full_name":"Monika Peter","score":{"Operacija":20,"Protest":30,"Kripto":0,"Zemljište":0,"Čudovište":0,"Kompleksi":20,"Matejota":0},"institution":"Srednja škola Dugo Selo","category":"high"},{"full_name":"Mate Pastorčić","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":15,"Čudovište":30,"Kompleksi":30,"Matejota":0},"institution":"Gimnazija i strukovna škola Jurja Dobrile Pazin","category":"high"},{"full_name":"Frane Šoprek","score":{"Operacija":20,"Protest":30,"Kripto":0,"Zemljište":0},"institution":"X. gimnazija Ivan Supek","category":"high"},{"full_name":"Višen Pavlica","score":{},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Lana Radošić","score":{"Operacija":20,"Protest":30,"Kripto":50,"Kompleksi":110},"institution":"Tehničko veleučilište u Zagrebu","category":"university"},{"full_name":"Hrvoje Valent","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":70,"Čudovište":0},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"David Ivšak","score":{},"institution":"Strukovna škola Đurđevac","category":"high"},{"full_name":"Matija Žganec","score":{"Operacija":20,"Protest":30},"institution":"Tehnička škola Čakovec","category":"high"},{"full_name":"Jan Celin","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":0},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Filip Švajger","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":0},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"},{"full_name":"Ian Petek","score":{},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Tin Fuček","score":{},"institution":"Srednja škola Dugo Selo","category":"high"},{"full_name":"Lovro Novak","score":{"Operacija":20,"Protest":30,"Kripto":50},"institution":"Osnovna škola Podturen","category":"elementary"},{"full_name":"Filip Perić","score":{"Operacija":20,"Protest":30,"Kripto":0,"Zemljište":0,"Kompleksi":0,"Matejota":0},"institution":"Srednja škola Dugo Selo","category":"high"},{"full_name":"Martina Bošnjak","score":{},"institution":"Gimnazija Pula","category":"high"},{"full_name":"Dino Hadžić","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":70,"Čudovište":110,"Kompleksi":20,"Matejota":110},"institution":"XV. gimnazija Zagreb","category":"high"},{"full_name":"Juraj Videc","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":0},"institution":"Srednja škola Dugo Selo","category":"high"},{"full_name":"Petar Filo","score":{"Operacija":20,"Protest":30,"Kripto":0},"institution":"Osnovna škola Petar Zrinski Šenkovec Čakovec","category":"elementary"},{"full_name":"Borna Sučić","score":{"Operacija":20,"Protest":0,"Kripto":0},"institution":"X. gimnazija Ivan Supek","category":"high"},{"full_name":"Ivo Pavičić","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":70,"Čudovište":110,"Kompleksi":30},"institution":"XV. gimnazija Zagreb","category":"high"},{"full_name":"Niko Baotić","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":70,"Čudovište":110,"Kompleksi":30,"Matejota":110},"institution":"Gimnazija i ekonomska škola Benedikta Kotruljevića, s pravom javnosti","category":"high"},{"full_name":"Martin Krištofić","score":{},"institution":"Tehnička škola Čakovec","category":"high"},{"full_name":"Kristijan Gašpar","score":{},"institution":"Fakultet elektrotehnike i računarstva","category":"university"},{"full_name":"Ilan Buza","score":{},"institution":"III. osnovna škola Čakovec","category":"elementary"},{"full_name":"Zvonimir Stjepan Jalšovec","score":{},"institution":"V. gimnazija Zagreb","category":"high"},{"full_name":"Ana Grizelj","score":{"Operacija":20,"Protest":30,"Kripto":0,"Zemljište":0},"institution":"X. gimnazija Ivan Supek","category":"high"},{"full_name":"Filip Marković","score":{"Operacija":20,"Protest":0},"institution":"Srednja škola Dugo Selo","category":"high"},{"full_name":"Jakov Jandrić","score":{"Operacija":20,"Protest":30,"Kripto":50,"Zemljište":70,"Čudovište":110,"Kompleksi":30},"institution":"Gimnazija Lucijana Vranjanina Zagreb","category":"high"}]}
+{
+  "name": "Kolo 3",
+  "problems": [
+    "Operacija",
+    "Protest",
+    "Kripto",
+    "Zemljište",
+    "Čudovište",
+    "Kompleksi",
+    "Matejota"
+  ],
+  "data": [
+    {
+      "full_name": "Nina Ergović",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30
+      },
+      "institution": "Gimnazija Požega",
+      "category": "high"
+    },
+    {
+      "full_name": "Jana Glavač",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 70
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Ilan Buza",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 0
+      },
+      "institution": "III. osnovna škola Čakovec",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Luka Budimir",
+      "score": {},
+      "institution": "Gimnazija Požega",
+      "category": "high"
+    },
+    {
+      "full_name": "Maksim Stanković Šprajc",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 70,
+        "Čudovište": 110,
+        "Kompleksi": 20
+      },
+      "institution": "Prva privatna gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Eva Tkalić",
+      "score": {},
+      "institution": "X. gimnazija Ivan Supek",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Milošević",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 30,
+        "Čudovište": 110,
+        "Kompleksi": 30,
+        "Matejota": 15
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Vito Popović",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Vito Toševski",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 30,
+        "Čudovište": 110,
+        "Kompleksi": 30
+      },
+      "institution": "III. gimnazija Split",
+      "category": "high"
+    },
+    {
+      "full_name": "Leo Briški",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30
+      },
+      "institution": "Gimnazija Požega",
+      "category": "high"
+    },
+    {
+      "full_name": "Dobren Dragojević",
+      "score": {},
+      "institution": "Ekonomska i trgovačka škola Dubrovnik",
+      "category": "high"
+    },
+    {
+      "full_name": "Ante Kelava",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Ivan Bahčić",
+      "score": {
+        "Operacija": 20
+      },
+      "institution": "Srednja škola Dugo Selo",
+      "category": "high"
+    },
+    {
+      "full_name": "Patrik Dikan",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50
+      },
+      "institution": "Gimnazija \"Fran Galović\"",
+      "category": "high"
+    },
+    {
+      "full_name": "Martin Galin",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50
+      },
+      "institution": "Osnovna škola Ksavera Šandora Gjalskog",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Stjepan Tomić",
+      "score": {},
+      "institution": "Srednja škola Dugo Selo",
+      "category": "high"
+    },
+    {
+      "full_name": "Darko Budimčić",
+      "score": {},
+      "institution": "Osnovna škola Ivan Benković Dugo Selo",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Filip Maksić",
+      "score": {
+        "Operacija": 20,
+        "Protest": 0
+      },
+      "institution": "Srednja škola Dugo Selo",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Tuksar",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 70,
+        "Čudovište": 110,
+        "Kompleksi": 30
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Antonio Jaković",
+      "score": {
+        "Operacija": 20
+      },
+      "institution": "Srednja škola Dugo Selo",
+      "category": "high"
+    },
+    {
+      "full_name": "Noa Čizmić",
+      "score": {},
+      "institution": "Tehnička škola Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Nikola Perčić Debeljuh",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 70,
+        "Čudovište": 70,
+        "Kompleksi": 10
+      },
+      "institution": "Osnovna škola Veli Vrh Pula",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Jakov Celin",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 70,
+        "Čudovište": 110,
+        "Kompleksi": 110,
+        "Matejota": 35
+      },
+      "institution": "Prirodoslovno-matematički fakultet",
+      "category": "university"
+    },
+    {
+      "full_name": "Filip Čižmek",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Kompleksi": 0
+      },
+      "institution": "Srednja škola Dugo Selo",
+      "category": "high"
+    },
+    {
+      "full_name": "Monika Peter",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 0,
+        "Zemljište": 0,
+        "Čudovište": 0,
+        "Kompleksi": 20,
+        "Matejota": 0
+      },
+      "institution": "Srednja škola Dugo Selo",
+      "category": "high"
+    },
+    {
+      "full_name": "Mate Pastorčić",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 15,
+        "Čudovište": 30,
+        "Kompleksi": 30,
+        "Matejota": 0
+      },
+      "institution": "Gimnazija i strukovna škola Jurja Dobrile Pazin",
+      "category": "high"
+    },
+    {
+      "full_name": "Frane Šoprek",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 0,
+        "Zemljište": 0
+      },
+      "institution": "X. gimnazija Ivan Supek",
+      "category": "high"
+    },
+    {
+      "full_name": "Višen Pavlica",
+      "score": {},
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Lana Radošić",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Kompleksi": 110
+      },
+      "institution": "Tehničko veleučilište u Zagrebu",
+      "category": "university"
+    },
+    {
+      "full_name": "Hrvoje Valent",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 70,
+        "Čudovište": 0
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "David Ivšak",
+      "score": {},
+      "institution": "Strukovna škola Đurđevac",
+      "category": "high"
+    },
+    {
+      "full_name": "Matija Žganec",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30
+      },
+      "institution": "Tehnička škola Čakovec",
+      "category": "high"
+    },
+    {
+      "full_name": "Jan Celin",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Filip Švajger",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 0
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Ian Petek",
+      "score": {},
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Tin Fuček",
+      "score": {},
+      "institution": "Srednja škola Dugo Selo",
+      "category": "high"
+    },
+    {
+      "full_name": "Lovro Novak",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50
+      },
+      "institution": "Osnovna škola Podturen",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Filip Perić",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 0,
+        "Zemljište": 0,
+        "Kompleksi": 0,
+        "Matejota": 0
+      },
+      "institution": "Srednja škola Dugo Selo",
+      "category": "high"
+    },
+    {
+      "full_name": "Martina Bošnjak",
+      "score": {},
+      "institution": "Gimnazija Pula",
+      "category": "high"
+    },
+    {
+      "full_name": "Dino Hadžić",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 70,
+        "Čudovište": 110,
+        "Kompleksi": 20,
+        "Matejota": 110
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Juraj Videc",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 0
+      },
+      "institution": "Srednja škola Dugo Selo",
+      "category": "high"
+    },
+    {
+      "full_name": "Petar Filo",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 0
+      },
+      "institution": "Osnovna škola Petar Zrinski Šenkovec Čakovec",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Borna Sučić",
+      "score": {
+        "Operacija": 20,
+        "Protest": 0,
+        "Kripto": 0
+      },
+      "institution": "X. gimnazija Ivan Supek",
+      "category": "high"
+    },
+    {
+      "full_name": "Ivo Pavičić",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 70,
+        "Čudovište": 110,
+        "Kompleksi": 30
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Niko Baotić",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 70,
+        "Čudovište": 110,
+        "Kompleksi": 30,
+        "Matejota": 110
+      },
+      "institution": "Gimnazija i ekonomska škola Benedikta Kotruljevića, s pravom javnosti",
+      "category": "high"
+    },
+    {
+      "full_name": "Martin Krištofić",
+      "score": {},
+      "institution": "Tehnička škola Čakovec",
+      "category": "high"
+    },
+    {
+      "full_name": "Kristijan Gašpar",
+      "score": {},
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Ilan Buza",
+      "score": {},
+      "institution": "III. osnovna škola Čakovec",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Zvonimir Stjepan Jalšovec",
+      "score": {},
+      "institution": "V. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Ana Grizelj",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 0,
+        "Zemljište": 0
+      },
+      "institution": "X. gimnazija Ivan Supek",
+      "category": "high"
+    },
+    {
+      "full_name": "Filip Marković",
+      "score": {
+        "Operacija": 20,
+        "Protest": 0
+      },
+      "institution": "Srednja škola Dugo Selo",
+      "category": "high"
+    },
+    {
+      "full_name": "Jakov Jandrić",
+      "score": {
+        "Operacija": 20,
+        "Protest": 30,
+        "Kripto": 50,
+        "Zemljište": 70,
+        "Čudovište": 110,
+        "Kompleksi": 30
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    }
+  ]
+}
+
