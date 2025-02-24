@@ -1,0 +1,247 @@
+{
+  "name": "Kolo 4",
+  "problems": [
+    "Dominacija",
+    "Carina",
+    "Skok",
+    "Stog",
+    "Funkcija",
+    "Hlače",
+    "Zmajevi"
+  ],
+  "data": [
+    {
+      "full_name": "Luka Milošević",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 0,
+        "Skok": 50,
+        "Stog": 70,
+        "Funkcija": 30,
+        "Hlače": 10,
+        "Zmajevi": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Luka Tuksar",
+      "score": {},
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Patrik Dikan",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 30
+      },
+      "institution": "Gimnazija \"Fran Galović\"",
+      "category": "high"
+    },
+    {
+      "full_name": "Dorijan Lendvaj",
+      "score": {},
+      "institution": "Prirodoslovno-matematički fakultet",
+      "category": "university"
+    },
+    {
+      "full_name": "Viktor Hotko Dojčić",
+      "score": {
+        "Dominacija": 0
+      },
+      "institution": "Osnovna škola Pavao Belas",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Hrvoje Valent",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 30,
+        "Stog": 70,
+        "Funkcija": 110,
+        "Zmajevi": 0
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Toni Brajko",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 30,
+        "Skok": 50,
+        "Stog": 70
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Mate Pastorčić",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 30,
+        "Stog": 0,
+        "Funkcija": 30,
+        "Zmajevi": 0
+      },
+      "institution": "Gimnazija i strukovna škola Jurja Dobrile Pazin",
+      "category": "high"
+    },
+    {
+      "full_name": "Martin Galin",
+      "score": {
+        "Dominacija": 20
+      },
+      "institution": "Osnovna škola Ksavera Šandora Gjalskog",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Borna Sučić",
+      "score": {
+        "Dominacija": 20
+      },
+      "institution": "X. gimnazija Ivan Supek",
+      "category": "high"
+    },
+    {
+      "full_name": "Jan Celin",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 30,
+        "Skok": 50
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Luka Ivanić",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 0,
+        "Skok": 50
+      },
+      "institution": "Sveučilište u Rijeci",
+      "category": "university"
+    },
+    {
+      "full_name": "Vito Toševski",
+      "score": {},
+      "institution": "III. gimnazija Split",
+      "category": "high"
+    },
+    {
+      "full_name": "Ante Kelava",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 0
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Petar Halužan",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 30
+      },
+      "institution": "Srednja strukovna škola Samobor",
+      "category": "high"
+    },
+    {
+      "full_name": "Nikola Perčić Debeljuh",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 30,
+        "Skok": 50,
+        "Stog": 10
+      },
+      "institution": "Osnovna škola Veli Vrh Pula",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Maksim Stanković Šprajc",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 30,
+        "Stog": 10
+      },
+      "institution": "Prva privatna gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Kristijan Gašpar",
+      "score": {},
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Jakov Jandrić",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 30,
+        "Skok": 0,
+        "Stog": 70,
+        "Funkcija": 30,
+        "Zmajevi": 0
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Dobren Dragojević",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 30,
+        "Skok": 0
+      },
+      "institution": "Ekonomska i trgovačka škola Dubrovnik",
+      "category": "high"
+    },
+    {
+      "full_name": "Patrick Pavić",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 30,
+        "Stog": 70
+      },
+      "institution": "Prirodoslovno-matematički fakultet",
+      "category": "university"
+    },
+    {
+      "full_name": "Lovro Novak",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 30
+      },
+      "institution": "Osnovna škola Podturen",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Niko Baotić",
+      "score": {},
+      "institution": "Gimnazija i ekonomska škola Benedikta Kotruljevića, s pravom javnosti",
+      "category": "high"
+    },
+    {
+      "full_name": "Ivo Pavičić",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 30,
+        "Stog": 70,
+        "Funkcija": 30
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Matej Miličević",
+      "score": {
+        "Dominacija": 20,
+        "Carina": 0
+      },
+      "institution": "Gimnazija Požega",
+      "category": "high"
+    }
+  ]
+}
