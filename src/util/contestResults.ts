@@ -25,7 +25,7 @@ export type RawContestDataEntry = {
     full_name: string;
     category: string;
     institution: string;
-    score: Record<string, number>;
+    score: Record<string, number | null>;
 };
 
 export const processContestResults = (data: RawContestDataEntry[]): ContestTableEntry[] => {

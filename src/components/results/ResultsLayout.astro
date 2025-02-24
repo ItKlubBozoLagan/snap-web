@@ -8,6 +8,8 @@ import { ContestsView } from "./ContestsTableView";
 
 const allResults = import.meta.glob("../../../public/data/*.json", { eager: true }) as Record<string, ContestData>;
 
+const ALL_CONTESTS = Object.values(allResults).map(it => it.name);
+
 const peopleBlacklist = [ "Višen Pavlica", "Kristijan Gašpar" ];
 
 const DataByContests = Object.fromEntries(
@@ -52,7 +54,23 @@ const collapseContestData = (category: EducationCategory | "all"): RawContestDat
     return Object.values(users);
 };
 
-DataByContests["Ukupno"] = {
+const filterOutWorst = (data: RawContestDataEntry[]): RawContestDataEntry[] => {
+    const defaultData = Object.fromEntries(ALL_CONTESTS.map(it => [ it, 0 ]));
+
+    return data.map(entry => {
+        const [ worst ] = Object.entries(Object.assign(defaultData, entry.score)).sort(([ _, a ], [ __, b ]) => a - b)[0];
+
+        return {
+            ...entry,
+            score: {
+                ...entry.score,
+                [worst]: null
+            }
+        };
+    });
+};
+
+const totalData = {
     problems: Object.values(allResults).map(it => it.name),
     data: {
         all: processContestResults(collapseContestData("all")),
@@ -61,6 +79,21 @@ DataByContests["Ukupno"] = {
         university: processContestResults(collapseContestData("university"))
     }
 };
+
+const totalDataWithoutWorst = {
+    problems: Object.values(allResults).map(it => it.name),
+    data: {
+        all: processContestResults(filterOutWorst(collapseContestData("all"))),
+        elementary: processContestResults(filterOutWorst(collapseContestData("elementary"))),
+        high: processContestResults(filterOutWorst(collapseContestData("high"))),
+        university: processContestResults(filterOutWorst(collapseContestData("university")))
+    },
+    color: true
+};
+
+DataByContests["Ukupno"] = totalData;
+
+DataByContests[`Ukupno (${ALL_CONTESTS.length - 1} najbolja)`] = totalDataWithoutWorst;
 ---
 
 <div class="container">

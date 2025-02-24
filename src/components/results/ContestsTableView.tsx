@@ -5,6 +5,7 @@ import "./table-styles.scss";
 type OneContestData = {
     problems: string[];
     data: Record<EducationCategory | "all", ContestTableEntry[]>;
+    color?: boolean;
 };
 
 type Properties = {
@@ -14,10 +15,11 @@ type Properties = {
 export const ContestsView: FC<Properties> = ({ dataByContests }: Properties) => {
     const [selectedContest, setSelectedContest] = useState<string>(Object.keys(dataByContests)[0]);
 
-    const { problems, data: dataByCategory } = useMemo(
-        () => dataByContests[selectedContest],
-        [selectedContest],
-    );
+    const {
+        problems,
+        data: dataByCategory,
+        color,
+    } = useMemo(() => dataByContests[selectedContest], [selectedContest]);
 
     return (
         <div className={"container"}>
@@ -31,12 +33,12 @@ export const ContestsView: FC<Properties> = ({ dataByContests }: Properties) => 
                     </button>
                 ))}
             </div>
-            <TableView problems={problems} data={dataByCategory} />
+            <TableView problems={problems} data={dataByCategory} color={color} />
         </div>
     );
 };
 
-const TableView: FC<OneContestData> = ({ problems, data }: OneContestData) => {
+const TableView: FC<OneContestData> = ({ problems, data, color }: OneContestData) => {
     const [selectedCategory, setSelectedCategory] = useState<EducationCategory | "all">("all");
 
     useEffect(() => {
@@ -93,8 +95,19 @@ const TableView: FC<OneContestData> = ({ problems, data }: OneContestData) => {
                                 <td>{it.category}</td>
                                 <td>{it.institution}</td>
                                 {problems.map((problem) => (
-                                    <td key={problem} className={"center"}>
-                                        {it.score[problem] ?? ""}
+                                    <td
+                                        key={problem}
+                                        className={"center"}
+                                        style={
+                                            color &&
+                                            (it.score[problem] === null
+                                                ? { backgroundColor: "#ff000022" }
+                                                : { backgroundColor: "#00ff0022" })
+                                        }
+                                    >
+                                        {it.score[problem] === null
+                                            ? "X"
+                                            : (it.score[problem] ?? "")}
                                     </td>
                                 ))}
 
