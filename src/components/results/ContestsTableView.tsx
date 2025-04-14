@@ -6,6 +6,7 @@ type OneContestData = {
     problems: string[];
     data: Record<EducationCategory | "all", ContestTableEntry[]>;
     color?: boolean;
+    finalCall?: Record<EducationCategory, number>
 };
 
 type Properties = {
@@ -13,19 +14,19 @@ type Properties = {
 };
 
 export const ContestsView: FC<Properties> = ({ dataByContests }: Properties) => {
-    const [selectedContest, setSelectedContest] = useState<string>(Object.keys(dataByContests)[0]);
+    const [selectedContest, setSelectedContest] = useState<string>(() => {
+        const keys = Object.keys(dataByContests);
+        return keys[keys.length - 1];
+    });
 
-    const {
-        problems,
-        data: dataByCategory,
-        color,
-    } = useMemo(() => dataByContests[selectedContest], [selectedContest]);
+    const contestData = useMemo(() => dataByContests[selectedContest], [selectedContest]);
 
     return (
         <div className={"container"}>
             <div className={"buttons buttons-contest"}>
                 {Object.keys(dataByContests).map((contest) => (
                     <button
+                        key={contest}
                         onClick={() => setSelectedContest(contest)}
                         className={selectedContest === contest ? "active" : ""}
                     >
@@ -33,12 +34,12 @@ export const ContestsView: FC<Properties> = ({ dataByContests }: Properties) => 
                     </button>
                 ))}
             </div>
-            <TableView problems={problems} data={dataByCategory} color={color} />
+            <TableView data={contestData} />
         </div>
     );
 };
 
-const TableView: FC<OneContestData> = ({ problems, data, color }: OneContestData) => {
+const TableView: FC<{ data: OneContestData }> = ({ data: { problems, data, color, finalCall } }) => {
     const [selectedCategory, setSelectedCategory] = useState<EducationCategory | "all">("all");
 
     useEffect(() => {
@@ -89,7 +90,10 @@ const TableView: FC<OneContestData> = ({ problems, data, color }: OneContestData
                     </thead>
                     <tbody>
                         {data[selectedCategory].map((it, index) => (
-                            <tr key={index.toString()}>
+                            <tr key={index.toString()} style={{
+                                ...(finalCall && index == finalCall[selectedCategory] ? { borderTop: `2px solid black` } : undefined),
+                                ...(finalCall && index < finalCall[selectedCategory] ? { backgroundColor: "#00ff0011" } : undefined)
+                            }}>
                                 <td className={"center"}>{it.rank}</td>
                                 <td>{it.full_name}</td>
                                 <td>{it.category}</td>
