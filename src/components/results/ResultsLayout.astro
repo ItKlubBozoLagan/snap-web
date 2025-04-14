@@ -1,40 +1,52 @@
 ---
 import {
-    type ContestData, type EducationCategory,
-    processContestResults, type RawContestDataEntry
+    type ContestData,
+    type EducationCategory,
+    processContestResults,
+    type RawContestDataEntry,
 } from "../../util/contestResults";
 
 import { ContestsView } from "./ContestsTableView";
 
-const allResults = import.meta.glob("../../../public/data/*.json", { eager: true }) as Record<string, ContestData>;
+const allResults = import.meta.glob("../../../public/data/*.json", { eager: true }) as Record<
+    string,
+    ContestData
+>;
 
-const ALL_CONTESTS = Object.values(allResults).map(it => it.name);
+const ALL_CONTESTS = Object.values(allResults).map((it) => it.name);
 
-const peopleBlacklist = [ "Višen Pavlica", "Kristijan Gašpar" ];
+const peopleBlacklist = ["Višen Pavlica", "Kristijan Gašpar"];
 
 const DataByContests = Object.fromEntries(
-    Object.values(allResults)
-        .map(({
-                  name,
-                  problems,
-                  data: rawData
-              }, _, __, data = rawData.filter(it => !peopleBlacklist.includes(it.full_name))
-            ) =>
-                [ name, {
-                    problems,
-                    data: {
-                        all: processContestResults(data),
-                        elementary: processContestResults(data.filter(it => it.category === "elementary")),
-                        high: processContestResults(data.filter(it => it.category === "high")),
-                        university: processContestResults(data.filter(it => it.category === "university"))
-                    }
-                } ]
-        ));
+    Object.values(allResults).map(
+        (
+            { name, problems, data: rawData },
+            _,
+            __,
+            data = rawData.filter((it) => !peopleBlacklist.includes(it.full_name)),
+        ) => [
+            name,
+            {
+                problems,
+                data: {
+                    all: processContestResults(data),
+                    elementary: processContestResults(
+                        data.filter((it) => it.category === "elementary"),
+                    ),
+                    high: processContestResults(data.filter((it) => it.category === "high")),
+                    university: processContestResults(
+                        data.filter((it) => it.category === "university"),
+                    ),
+                },
+            },
+        ],
+    ),
+);
 
 const collapseContestData = (category: EducationCategory | "all"): RawContestDataEntry[] => {
     const users: Record<string, RawContestDataEntry> = {};
 
-    for (const [ name, { data } ] of Object.entries(DataByContests)) {
+    for (const [name, { data }] of Object.entries(DataByContests)) {
         const categoryData = data[category];
 
         for (const entry of categoryData) {
@@ -43,7 +55,7 @@ const collapseContestData = (category: EducationCategory | "all"): RawContestDat
                     full_name: entry.full_name,
                     category: entry.category,
                     institution: entry.institution,
-                    score: {}
+                    score: {},
                 };
             }
 
@@ -55,40 +67,42 @@ const collapseContestData = (category: EducationCategory | "all"): RawContestDat
 };
 
 const filterOutWorst = (data: RawContestDataEntry[]): RawContestDataEntry[] => {
-    const defaultData = Object.fromEntries(ALL_CONTESTS.map(it => [ it, 0 ]));
+    const defaultData = Object.fromEntries(ALL_CONTESTS.map((it) => [it, 0]));
 
-    return data.map(entry => {
-        const [ worst ] = Object.entries(Object.assign(defaultData, entry.score)).sort(([ _, a ], [ __, b ]) => a - b)[0];
+    return data.map((entry) => {
+        const [worst] = Object.entries(Object.assign({ ...defaultData }, entry.score)).sort(
+            ([_, a], [__, b]) => a - b,
+        )[0];
 
         return {
             ...entry,
             score: {
                 ...entry.score,
-                [worst]: null
-            }
+                [worst]: null,
+            },
         };
     });
 };
 
 const totalData = {
-    problems: Object.values(allResults).map(it => it.name),
+    problems: Object.values(allResults).map((it) => it.name),
     data: {
         all: processContestResults(collapseContestData("all")),
         elementary: processContestResults(collapseContestData("elementary")),
         high: processContestResults(collapseContestData("high")),
-        university: processContestResults(collapseContestData("university"))
-    }
+        university: processContestResults(collapseContestData("university")),
+    },
 };
 
 const totalDataWithoutWorst = {
-    problems: Object.values(allResults).map(it => it.name),
+    problems: Object.values(allResults).map((it) => it.name),
     data: {
         all: processContestResults(filterOutWorst(collapseContestData("all"))),
         elementary: processContestResults(filterOutWorst(collapseContestData("elementary"))),
         high: processContestResults(filterOutWorst(collapseContestData("high"))),
-        university: processContestResults(filterOutWorst(collapseContestData("university")))
+        university: processContestResults(filterOutWorst(collapseContestData("university"))),
     },
-    color: true
+    color: true,
 };
 
 DataByContests["Ukupno"] = totalData;
@@ -97,7 +111,7 @@ DataByContests[`Ukupno (${ALL_CONTESTS.length - 1} najbolja)`] = totalDataWithou
 ---
 
 <div class="container">
-    <ContestsView client:load dataByContests={DataByContests}/>
+    <ContestsView client:load dataByContests={DataByContests} />
 </div>
 
 <style>
@@ -118,5 +132,4 @@ DataByContests[`Ukupno (${ALL_CONTESTS.length - 1} najbolja)`] = totalDataWithou
         display: flex;
         flex-direction: column;
     }
-
 </style>
